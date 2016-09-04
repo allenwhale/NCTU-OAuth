@@ -1,5 +1,7 @@
 #NCTU-OAuth
 
+pip3 install tornado-NCTU-OAuth
+
 台灣國立交通大學推出 [NCTU OAuth]('https://id.nctu.edu.tw/')
 
 你可以透過本套件在tornado開發中使用NCTU OAuth

@@ -1,16 +1,18 @@
 from setuptools import setup, find_packages
 import sys, os
 
-VERSION = '0.1.0'
+VERSION = '0.1.2'
 
-with open('README.md') as f:
-    long_description = f.read()
+if os.path.exists('README.md'):
+    long_description = open('README.md').read()
+else:
+    long_description = ''
 
 setup(
-	name='NCTU-OAuth',
+	name='tornado-NCTU-OAuth',
 	version=VERSION,
-	description="adds NCTU-Oauth support to tornado",
-	long_description=long_description,
+	description="adds NCTU-OAuth support to tornado",
+        long_description=long_description,
 	classifiers=[],
 	keywords='python tornado nctu oauth nctu-oauth',
 	author='allenwhale',
