@@ -7,7 +7,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-	name='NCTU-Oauth',
+	name='NCTU-OAuth',
 	version=VERSION,
 	description="adds NCTU-Oauth support to tornado",
 	long_description=long_description,
